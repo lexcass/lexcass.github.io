@@ -1,11 +1,10 @@
-$files = Get-ChildItem "C:\Users\LexCa\Documents\alexcassady_online\slim"
+$files = Get-ChildItem "C:\Users\LexCa\Documents\lexcass.github.io\slim"
 echo "Start"
 
 ForEach ($f in $files)
 {
 	$name = $f.BaseName
 	slimrb ".\slim\${name}.slim" > "${name}.html"
-	echo "Did it work?"
 	echo $f.BaseName
 }
 
