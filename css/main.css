@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans");
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: whitesmoke;
+  background-image: url("../images/backgroundport2.png");
+  background-attachment: fixed;
+  background-position: center;
+  color: whitesmoke; }
+
+a {
+  color: whitesmoke;
+  text-decoration: underline; }
+
+.small-col {
+  text-align: center; }
+
+.large-col {
+  background-color: dodgerblue;
+  border-radius: 0.5em;
+  padding: 1em; }
+  .large-col:hover {
+    background-color: #4AA6FF; }
+
+.container {
+  margin: 3em auto; }
+
+.cent-col {
+  text-align: center; }
+
+.modal-content {
+  background-color: #4AA6FF; }
+
+.circle-img {
+  border-radius: 50%; }
+
+.col-img {
+  width: 10em;
+  height: 10em; }
+
+.col-img-wide {
+  width: 12em;
+  height: 10em; }
+
+.hover-scale:hover {
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+  -webkit-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05); }
+
+#pic {
+  padding: 2em 0; }
+
+.navbar {
+  font-size: 1.5em;
+  background-color: dodgerblue; }
+  .navbar .navbar-brand {
+    font-size: 2em;
+    color: whitesmoke; }
+
+.nav-item {
+  margin-left: 5em;
+  margin-right: 5em; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: whitesmoke;
+  text-decoration: none; }
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: lightgray; }
+
+/*# sourceMappingURL=main.css.map */

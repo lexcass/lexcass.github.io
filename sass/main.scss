@@ -1,9 +1,143 @@
-div
-{
-	background-color: black;
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+
+// Vars
+$foreground-color: dodgerblue;
+$foreground-color-hover: #4AA6FF;
+$background-color: whitesmoke;
+$text-color: whitesmoke;
+$nav-link-hover: lightgray;
+$link-color-unvisited: #94e2fc;
+$link-color-visited: #94aefc;
+$nav-item-color: #33ccff;
+
+$col-img-width: 10em;
+$col-img-width-wide: 12em;
+$col-img-height: 10em;
+
+
+
+
+
+body {
+	font-family: 'Work Sans', sans-serif;
+	background-color: $background-color;
+	background-image: url("../images/backgroundport2.png");
+	background-attachment: fixed;
+	background-position: center;
+	//background-size: cover;
+	color: $text-color;
 }
 
-p
-{
-	color: red;
+a {
+	color: $text-color;
+	text-decoration: underline;
 }
+
+.small-col {
+	// DEBUG
+	//border: 1px solid black;
+	
+	text-align: center;
+}
+
+
+.large-col {
+	// DEBUG
+	//border: 1px solid black;
+	
+	background-color: $foreground-color;
+	border-radius: 0.5em;
+	padding: 1em;
+	
+	&:hover {
+		background-color: $foreground-color-hover;
+	}
+}
+
+
+.container {
+	margin: 3em auto;
+}
+
+
+.cent-col {
+	text-align: center;
+}
+
+
+.modal-content {
+	background-color: $foreground-color-hover;
+}
+
+
+// Image
+
+.circle-img {
+	border-radius: 50%;
+}
+
+.col-img {
+	width: $col-img-width; height: $col-img-height;
+}
+
+.col-img-wide {
+	width: $col-img-width-wide; height: $col-img-height;
+}
+
+
+.hover-scale {
+	&:hover {
+		-webkit-transition: all 0.25s linear;
+        transition: all 0.25s linear;
+		-webkit-transform: scale(1.05, 1.05);
+        transform: scale(1.05, 1.05);
+	}
+}
+
+#pic {
+	padding: 2em 0;
+}
+
+// End Image
+
+
+
+// Navigation
+.navbar {
+	// DEBUG
+	//border: 1px solid black;
+
+
+	font-size: 1.5em;
+	background-color: $foreground-color;
+	
+	.navbar-brand {
+		font-size: 2em;
+		color: $text-color;
+	}
+}
+
+
+.nav-item {
+	margin-left: 5em;
+	margin-right: 5em;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+	color: $text-color;
+	text-decoration: none;
+	
+	&:hover {
+		color: $nav-link-hover;
+	}
+}
+// End Navigation
+
+
+
+// About Me
+
+
+// End About Me
