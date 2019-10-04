@@ -1,0 +1,27 @@
+@import "constants.scss";
+
+.circle-img {
+	border-radius: 50%;
+}
+
+.col-img {
+	width: $col-img-width; height: $col-img-height;
+}
+
+.col-img-wide {
+	width: $col-img-width-wide; height: $col-img-height;
+}
+
+
+.hover-scale {
+	&:hover {
+		-webkit-transition: all 0.25s linear;
+        transition: all 0.25s linear;
+		-webkit-transform: scale(1.05, 1.05);
+        transform: scale(1.05, 1.05);
+	}
+}
+
+#pic {
+	padding: 2em 0;
+}

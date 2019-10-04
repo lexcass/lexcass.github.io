@@ -1,0 +1,21 @@
+.circle-img {
+  border-radius: 50%; }
+
+.col-img {
+  width: 10em;
+  height: 10em; }
+
+.col-img-wide {
+  width: 12em;
+  height: 10em; }
+
+.hover-scale:hover {
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+  -webkit-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05); }
+
+#pic {
+  padding: 2em 0; }
+
+/*# sourceMappingURL=image.css.map */

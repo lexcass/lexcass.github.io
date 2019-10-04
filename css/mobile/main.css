@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans");
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #CDF;
+  color: whitesmoke; }
+
+a {
+  color: whitesmoke;
+  text-decoration: underline; }
+
+.small-col {
+  text-align: center; }
+
+.large-col {
+  background-color: dodgerblue;
+  border-radius: 0em;
+  width: 100%; }
+
+.container {
+  margin: 0 auto;
+  max-width: 100%; }
+
+.cent-col {
+  text-align: center; }
+
+.modal-content {
+  background-color: #4AA6FF; }
+
+.navbar {
+  text-align: center; }
+
+.navbar-brand {
+  width: 100%; }
+
+.navbar-nav {
+  display: none; }
+
+/*# sourceMappingURL=main.css.map */

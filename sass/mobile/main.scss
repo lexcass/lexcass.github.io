@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
-@import "constants.scss";
+@import "../constants.scss";
 
 
 body {
 	font-family: 'Work Sans', sans-serif;
 	background-color: $background-color;
-	background-image: url("../images/backgroundport2.png");
-	background-attachment: fixed;
-	background-position: center;
 	color: $text-color;
 }
 
@@ -23,17 +20,14 @@ a {
 
 .large-col {
 	background-color: $foreground-color;
-	border-radius: 0.5em;
-	padding: 1em;
-	
-	&:hover {
-		background-color: $foreground-color-hover;
-	}
+	border-radius: 0em;
+	width: 100%;
 }
 
 
 .container {
-	margin: 3em auto;
+	margin: 0 auto;
+	max-width: 100%;
 }
 
 
@@ -46,11 +40,14 @@ a {
 	background-color: $foreground-color-hover;
 }
 
+.navbar {
+	text-align: center;
+}
 
-@import "nav.scss";
-@import "image.scss";
+.navbar-brand {
+	width: 100%;
+}
 
-
-@media only screen and (max-width: 768px) {
-	@import "mobile/main.scss";
+.navbar-nav {
+	display: none;
 }
